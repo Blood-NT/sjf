@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25px"
+            android:gravity="center"
+            android:text="Giới Thiệu"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#D82525"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Môn học: Hệ Điều Hành"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#D82525"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="đề tài: Viết chương trình xác định kết quả điều phối tiến trình và thời gian chờ trung bình theo thuật toán SJF độc quyền và không độc quyền.\n (Shortest Job First)"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#D82525"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Giảng viên:              Huỳnh Thanh Tâm"
+        android:textSize="20dp"
+        android:textColor="#D82525"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Nguời thực Hiện:   Nguyễn Trọng Sơn"
+        android:textSize="20dp"
+        android:textColor="#D82525"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="MSSV:                              N19DCCN161"
+        android:textSize="20dp"
+        android:textColor="#D82525"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Lớp:                                D19CQCN02-N"
+        android:textSize="20dp"
+        android:textColor="#D82525"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bobtn"
+        android:text="Home" />
+</LinearLayout>

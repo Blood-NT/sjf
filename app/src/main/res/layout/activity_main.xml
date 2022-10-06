@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkg"
+    >
+
+
+        <LinearLayout
+            android:id="@+id/asdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25px"
+                android:gravity="center"
+                android:text="SJF \n độc quyền - không độc quyền"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <EditText
+            android:id="@+id/vitritientrinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint='STT\ntiến trình'
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/thoidiemvao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Thời điểm\nvào RL"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/thuchien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Thời gian\nxử lỹ"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="thêm"
+            android:background="@drawable/bobtn"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:text="xoá"
+            android:background="@drawable/bobtn"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/xoahet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/bobtn"
+            android:text="xoá hết" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/docquyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/bobtn"
+            android:text="độc quyền" />
+
+        <Button
+            android:id="@+id/khongdocquyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bobtn"
+            android:gravity="center"
+            android:text="không độc quyền" />
+
+        <Button
+            android:id="@+id/infoptit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bobtn"
+            android:gravity="center"
+            android:text="info" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listviewtientrinh"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="194dp">
+
+    </ListView>
+    <TextView
+        android:id="@+id/dong1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông báo:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/dong2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="đây là vùng hiển thị thông tin"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/dong3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_-_-_-_-_-_-_-_-_-_-_-_-_-_-_"
+        android:layout_marginLeft="20dp"/>
+
+</LinearLayout>
